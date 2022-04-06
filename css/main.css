@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  display: swap;
+  src: url("../fonts/source-sans-pro-v19-latin-regular.woff2") format("woff2"), 
+  url("../fonts/source-sans-pro-v19-latin-regular.woff") format("woff"); 
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  display: swap;
+  src: url("../fonts/source-sans-pro-v19-latin-600.woff2") format("woff2"),
+  url("../fonts/source-sans-pro-v19-latin-600.woff") format("woff"); 
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  display: swap;
+  src: url("../fonts/source-sans-pro-v19-latin-700.woff2") format("woff2"), 
+  url("../fonts/source-sans-pro-v19-latin-700.woff") format("woff");
+}
+
+.search {
+  border-radius: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  outline: none;
+  background: rgb(244, 244, 244);
+}
+
+.search::placeholder {
+  text-align: center;
+}
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  border-bottom:1px solid rgb(255, 255, 255) ;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+}
+body {
+  font-family: 'Source Sans Pro';
+}
+.item {
+  background-color: rgba(76, 145, 199, 1);
+  border-bottom: 1px solid rgba(234, 234, 234, 1) ;
+}
+.icons {
+  fill: rgba(255, 255, 255);
+  filter: invert(63%) sepia(0%) saturate(7484%) hue-rotate(-881deg) brightness(-39%) contrast(8%);
+  width:17px ;
+  height:25px;
+}
+.green {
+  width: 16px;
+  height: 25px;
+}
+.messag {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 12px;
+}
+.messag-box {
+  border-left: 3px solid  rgba(102, 167, 219, 1);
+  padding-left: 12px;
+}
+.emjoy {
+  border-left:1px solid rgb(112, 128, 144) ;
+}
+.emjoy-box {
+
+  border-bottom:1px solid rgb(112, 128, 144) ;
+}
+.emjoying{
+  padding-bottom: 70px;
+}
+.tg-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom:1px solid rgb(255, 255, 255) ;
+  border-top:1px solid rgb(255, 255, 255) ;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 0px 5px rgba(159, 159, 159, 0.19);
+}
+.button {
+  border-right:1px solid rgb(112, 128, 144) ;
+}
+.tg-btn {
+  border: none;
+  background-color: transparent;  
+}
+.tg-btn:focus {
+  outline: none; 
+}
+.footer-box{
+  border-right:1px solid rgb(112, 128, 144) ;
+  padding-right: 18px;
+}
